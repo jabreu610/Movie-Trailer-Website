@@ -16,7 +16,8 @@ def main():
 
 
 def create_movie(movie_dict):
-    return Movie(movie_dict.get('title'), movie_dict.get('poster_image_url'), movie_dict.get('trailer_youtube_url'))
+    return Movie(movie_dict.get('title'), movie_dict.get('poster_image_url'),
+                 movie_dict.get('trailer_youtube_url'))
 
 
 if __name__ == '__main__':

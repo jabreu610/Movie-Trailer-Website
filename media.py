@@ -2,7 +2,13 @@
 
 
 class Movie(object):
-    """Class that describes the components of a Movie"""
+    """Define a Movie object.
+
+        Keyword arguments:
+        title -- The title of the movie
+        poster_image_url -- a url to an image of the poster art for the movie
+        trailer_youtube_url -- a url to a trailer of the movie on YouTube
+    """
     # Define constructor method
 
     def __init__(self, title, poster_image_url, trailer_youtube_url):
